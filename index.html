@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Acerca de mí</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Framework CSS -->
+  <!-- CSS del fondo -->
+  <link href="style.css" rel="stylesheet"> 
+</head>
+<body class="text-dark fondo-personalizado">
+
+  <!-- Encabezado -->
+  <header class="container  "> <!-- container centra + py-4 padding vertical + border borde + shadow-sm sombra ligera -->
+    <h1 class="display-4 fw-bold text-dark ">¿Quién soy?</h1> <!-- display-4 título grande, fw-bold negrita, text-primary azul, subrayado -->
+    <p class="mt-3"> Hola, mi nombre es <strong>Lilian Nineth Paredes Davila</strong> y soy estudiante de tercer año de Ingeniería en Sistemas. Aunque todavía estoy aprendiendo, me emociona ver todo lo que se puede lograr gracias a la tecnología. En esta página web te contaré sobre mi vida, mis hobbies y lo que he aprendido hasta el momento. </p>
+    <!-- Menú -->
+<nav class="text-end">
+  <a href="https://www.instagram.com/lilyparedes11/" target="_blank" class="btn btn-instagram me-2">Instagram</a> 
+  <a href="https://www.facebook.com/lilian.paredes.927?locale=es_LA" target="_blank" class="btn btn-facebook me-2">Facebook</a>
+  <a href="https://lilyparedes.github.io/Tarea6---IA/" target="_blank" class="btn btn-pagina2 me-2">Pagina 2</a> 
+</nav>
+
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container my-4"> <!-- container centrado + my-4 margen vertical -->
+    <div class="row g-4 row-equal"> <!-- row fila, g-4 gap entre columnas, row-equal mismo alto -->
+
+      <!-- Columna Izquierda -->
+      <aside class="col-lg-3 col-md-4 col-12 d-flex"> <!-- col-lg-3 ancho lg, col-md-4 ancho md, col-12 ancho móvil, d-flex flex container -->
+        <div class="card shadow-sm flex-fill"> <!-- card Bootstrap, shadow-sm sombra, flex-fill altura completa -->
+          <div class="card-body"> <!-- card-body espacio interno -->
+            <h2 class="h4 text-secondary">Un poco sobre mí...</h2> 
+            <ul > 
+              <li>Estudio Ingeniería en Sistemas.</li>
+              <li>Me gusta programar y aprender cosas nuevas.</li>
+              <li>Obtuve una beca en IGA School, actualmente poseo nivel 5 de inglés.</li>
+              <li>Prefiero programar escuchando música.</li>
+              <li>Me encanta el café frío y los helados.</li>
+              <li>Quiero impartir clases en la universidad.</li>
+              <li>Me interesa especializarme en redes y bases de datos.</li>
+              <li>Quiero estudiar un MBA.</li>
+            </ul>
+            <h2 class="h4 text-secondary mt-4">¿Qué me gustaría aprender?</h2> <!-- mt-4 margen arriba -->
+            <ul class="list-unstyled">
+              <li>Java, C++, PHP a profundidad.</li>
+              <li>Más sobre redes.</li>
+              <li>Proyectos de electrónica.</li>
+              <li>Proyectos con bases de datos.</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Columna Central -->
+      <section class="col-lg-6 col-md-8 col-12 d-flex"> <!-- col-lg-6 ancho lg, col-md-8 ancho md, col-12 ancho móvil, d-flex flex container -->
+        <div class="card shadow-sm flex-fill"> <!-- card sombra + altura completa -->
+          <div class="card-body">
+            <h2 class="h4 text-secondary">Mis Metas y Sueños</h2>
+            <ol> <!-- lista numerada -->
+              <li>Terminar mi carrera con bases sólidas.</li>
+              <li>Obtener un trabajo estable.</li>
+              <li>Mejorar en programación y matemáticas aplicadas.</li>
+              <li>Formar una familia y balancear mi vida.</li>
+              <li>Viajar y conocer nuevas culturas.</li>
+              <li>Seguir aprendiendo nuevas tecnologías.</li>
+            </ol>
+
+            <h2 class="h4 text-secondary mt-4">Actores y Actrices Favoritos</h2>
+            <ol type="A"> <!-- lista con letras -->
+              <li>Anne Hathaway</li>
+              <li>Jackie Chan</li>
+              <li>Dwayne Johnson</li>
+              <li>Keira Knightley</li>
+            </ol>
+            <img src="Images/Imagen 2.png" alt="Actriz favorita" class="img-fluid rounded my-2"> <!-- imagen responsive, redondeada, margen -->
+
+            <h2 class="h4 text-secondary mt-4">Cantantes Favoritos</h2>
+            <ol>
+              <li>Sebastián Yatra</li>
+              <li>Selena Gómez</li>
+              <li>Morat</li>
+              <li>Taylor Swift</li>
+              <li>Asher Angel</li>
+            </ol>
+            <div class="d-flex flex-wrap"> <!-- flex-wrap envuelve imágenes -->
+              <img src="Images/Cantante/Imagen 3.png" class="img-fluid rounded m-2" style="max-width:45%;" alt="Cantante">
+              <img src="Images/Cantante/Imagen 4.png" class="img-fluid rounded m-2" style="max-width:45%;" alt="Cantante">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Columna Derecha -->
+      <aside class="col-lg-3 col-md-12 d-none d-lg-flex"> <!-- oculta en móvil, flex en lg -->
+        <div class="card shadow-sm flex-fill">
+          <div class="card-body">
+            <h2 class="h4 text-secondary">Mis películas favoritas</h2>
+            <ol type="I"> <!-- lista romana -->
+              <li>Juego de gemelas</li>
+              <li>Entrenando a papá</li>
+              <li>Kung Fu Panda</li>
+              <li>Películas de Barbie</li>
+            </ol>
+            <img src="Images/Pelicula/Imagen 1.png" class="img-fluid rounded my-2" alt="Película">
+            <img src="Images/Pelicula/Imagen 5.png" class="img-fluid rounded my-2" alt="Película">
+
+            <h3 class="h5 text-secondary mt-3">Video</h3>
+            <p class="small">A continuación podrás encontrar videos con reproducción automática.</p>
+
+
+
+            <video controls autoplay muted loop class="w-100 rounded"> <!-- video responsive + redondeado -->
+              <source src="Selena.mp4" type="video/mp4">
+              Tu navegador no soporta video HTML5.
+            </video>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Imágenes finales -->
+  <section class="container my-4">
+    <div class="card shadow-sm flex-fill">
+      <div class="card-body text-center"> <!-- texto centrado -->
+        <h3 class="h5 text-secondary">Imágenes</h3>
+        <p class="small">Imágenes en línea que me gustaron</p>
+        <div class="d-flex flex-wrap justify-content-center"> <!-- flex wrap + centrar contenido -->
+          <img src="https://picsum.photos/id/608/400/400" class="img-fluid rounded m-2"  alt="paisaje">
+          <img src="https://picsum.photos/id/408/400/400" class="img-fluid rounded m-2"  alt="paisaje">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <footer class="text-center py-3 border-top">
+        <p> Lilian Paredes</p>
+    </footer>
+
+</body>
+</html>
